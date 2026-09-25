@@ -334,7 +334,7 @@ export default function App() {
             <div className="bg-white rounded-sm shadow-md border border-slate-200/80 overflow-hidden flex flex-col">
               <div className="h-56 w-full overflow-hidden">
                 <img 
-                  src="/images/interior-living.JPG"
+                  src="/images/interior-living.JPG" 
                   alt="Urban Living Complex" 
                   className="w-full h-full object-cover"
                 />
