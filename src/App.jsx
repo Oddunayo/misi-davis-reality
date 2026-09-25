@@ -15,7 +15,7 @@ export default function App() {
             {/* White Logo Container */}
             <div className="bg-white p-4 rounded-sm mb-8 shadow-md">
               <img
-                src="\public\brand-logo.JPG"
+                src="\images\brand-logo.JPG"
                 alt="Misi Davis Realty Logo"
                 className="w-full h-auto max-h-20 object-contain"
               />
@@ -50,7 +50,7 @@ export default function App() {
         {/* Right Building Photo */}
         <div className="relative overflow-hidden rounded-sm border border-[#C8AD62]/30 min-h-100 lg:min-h-full">
           <img
-            src="\public\hero-mansion.JPG"
+            src="\images\hero-mansion.JPG"
             alt="Misi Davis Exterior Building"
             className="w-full h-full object-cover"
           />
@@ -119,7 +119,7 @@ export default function App() {
             {/* Right Column: Interior Image */}
             <div className="relative rounded-sm overflow-hidden border border-[#C8AD62] shadow-md min-h-95 lg:min-h-full">
               <img
-                src="/public/interior-living.JPG"
+                src="/images/interior-living.JPG"
                 alt="Misi Davis Interior Living Room"
                 className="w-full h-full object-cover"
               />
@@ -282,7 +282,7 @@ export default function App() {
             <div className="bg-white rounded-sm shadow-md border border-slate-200/80 overflow-hidden flex flex-col">
               <div className="h-56 w-full overflow-hidden">
                 <img 
-                  src="/public/villa.JPG" 
+                  src="/images/villa.JPG" 
                   alt="Executive Villa Residence" 
                   className="w-full h-full object-cover"
                 />
@@ -308,7 +308,7 @@ export default function App() {
             <div className="bg-white rounded-sm shadow-md border border-slate-200/80 overflow-hidden flex flex-col">
               <div className="h-56 w-full overflow-hidden">
                 <img 
-                  src="/public/bedroom.JPG" 
+                  src="/images/bedroom.JPG" 
                   alt="Serene Bedroom Suite" 
                   className="w-full h-full object-cover"
                 />
@@ -334,7 +334,7 @@ export default function App() {
             <div className="bg-white rounded-sm shadow-md border border-slate-200/80 overflow-hidden flex flex-col">
               <div className="h-56 w-full overflow-hidden">
                 <img 
-                  src="/public/interior-living.JPG"
+                  src="/images/interior-living.JPG"
                   alt="Urban Living Complex" 
                   className="w-full h-full object-cover"
                 />
