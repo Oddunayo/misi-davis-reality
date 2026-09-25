@@ -17,7 +17,7 @@ export default function App() {
             {/* White Logo Container */}
             <div className="bg-white p-4 rounded-sm mb-8 shadow-md">
               <img 
-                src="/public/brand-logo.JPG" 
+                src="public\brand-logo.JPG"
                 alt="Misi Davis Realty Logo" 
                 className="w-full h-auto max-h-20 object-contain"
               />
@@ -51,7 +51,7 @@ export default function App() {
         {/* Right Building Photo */}
         <div className="relative overflow-hidden rounded-sm border border-[#C8AD62]/30 min-h-100 lg:min-h-full">
           <img
-            src="/public/hero-mansion.JPG"
+            src="public\hero-mansion.JPG"
             alt="Misi Davis Exterior Building"
             className="w-full h-full object-cover"
           />
