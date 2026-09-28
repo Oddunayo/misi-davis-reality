@@ -348,7 +348,7 @@ export default function App() {
                 </h3>
                 <div className="flex items-center gap-1 text-xs text-[#C8AD62] font-medium mb-3">
                   <span>📍</span>
-                  <span> className="font-bold"Business Hub</span>
+                  <span className="font-bold">Business Hub</span>
                 </div>
                 <p className="text-xs text-slate-600 leading-relaxed font-bold">
                   Fully managed multi-family complex generating sustained returns for institutional investors.
@@ -357,6 +357,267 @@ export default function App() {
             </div>
 
           </div>
+        </div>
+      </section>
+      {/* WHY PARTNER WITH MISI DAVIS REALTY SECTION */}
+      <section className="bg-[#FAF8F2] text-slate-800 py-16 px-6 md:px-12 border-t border-[#C8AD62]/30 relative">
+        {/* Top Gold Corner Accents */}
+        <div className="w-5 h-5 border-t-2 border-l-2 border-[#C8AD62] absolute top-6 left-6" />
+        <div className="w-5 h-5 border-t-2 border-r-2 border-[#C8AD62] absolute top-6 right-6" />
+
+        <div className="max-w-7xl mx-auto">
+          
+          {/* Section Header */}
+          <div className="mb-12">
+            <h2 className="text-2xl md:text-3xl font-serif font-bold text-[#0F1E2E] tracking-wider uppercase mb-3">
+              WHY PARTNER WITH MISI DAVIS REALTY
+            </h2>
+            <div className="w-full h-px bg-[#C8AD62]" />
+          </div>
+
+          {/* Grid Layout: Left Stats Grid + Right Value Props Stack */}
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            
+            {/* Left Side: 2x2 Dark Green Stat Cards */}
+            <div className="lg:col-span-5 grid grid-cols-2 gap-4">
+              
+              {/* Stat 1 */}
+              <div className="bg-[#1C2B22] p-6 rounded-md border border-[#C8AD62]/20 shadow-md text-center flex flex-col items-center justify-center min-h-30">
+                <span className="text-3xl font-serif font-bold text-[#C8AD62] mb-1">
+                  100%
+                </span>
+                <span className="text-[10px] md:text-xs font-semibold text-slate-200 uppercase tracking-widest">
+                  CLIENT SATISFACTION
+                </span>
+              </div>
+
+              {/* Stat 2 */}
+              <div className="bg-[#1C2B22] p-6 rounded-md border border-[#C8AD62]/20 shadow-md text-center flex flex-col items-center justify-center min-h-30">
+                <span className="text-3xl font-serif font-bold text-[#C8AD62] mb-1">
+                  03+
+                </span>
+                <span className="text-[10px] md:text-xs font-semibold text-slate-200 uppercase tracking-widest">
+                  CORE SERVICES
+                </span>
+              </div>
+
+              {/* Stat 3 */}
+              <div className="bg-[#1C2B22] p-6 rounded-md border border-[#C8AD62]/20 shadow-md text-center flex flex-col items-center justify-center min-h-30">
+                <span className="text-3xl font-serif font-bold text-[#C8AD62] mb-1">
+                  24/7
+                </span>
+                <span className="text-[10px] md:text-xs font-semibold text-slate-200 uppercase tracking-widest">
+                  PROPERTY SUPPORT
+                </span>
+              </div>
+
+              {/* Stat 4 */}
+              <div className="bg-[#1C2B22] p-6 rounded-md border border-[#C8AD62]/20 shadow-md text-center flex flex-col items-center justify-center min-h-30">
+                <span className="text-3xl font-serif font-bold text-[#C8AD62] mb-1">
+                  100%
+                </span>
+                <span className="text-[10px] md:text-xs font-semibold text-slate-200 uppercase tracking-widest">
+                  VERIFIED DOCUMENTATION
+                </span>
+              </div>
+
+            </div>
+
+            {/* Right Side: White Feature Cards */}
+            <div className="lg:col-span-7 flex flex-col gap-4">
+              
+              {/* Feature 1 */}
+              <div className="bg-white p-6 rounded-sm shadow-sm border border-slate-200/80 flex items-start gap-4">
+                <div className="p-2 text-slate-800 shrink-0">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  </svg>
+                </div>
+                <div>
+                  <p className="text-xs md:text-sm text-slate-700 font-light leading-relaxed">
+                    <strong className="font-bold text-[#0F1E2E]">Secure & Verified Transactions</strong><span className="font-bold"> Rigorous legal verification and transparent documentation for absolute peace of mind.</span>
+                  </p>
+                </div>
+              </div>
+
+              {/* Feature 2 */}
+              <div className="bg-white p-6 rounded-sm shadow-sm border border-slate-200/80 flex items-start gap-4">
+                <div className="p-2 text-slate-800 shrink-0">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+                  </svg>
+                </div>
+                <div>
+                  <p className="text-xs md:text-sm text-slate-700 font-light leading-relaxed">
+                    <strong className="font-bold text-[#0F1E2E]">High Yield Property Investments</strong><span className="font-bold"> Strategic sourcing of properties positioned for steady capital appreciation and rental yield.</span>
+                  </p>
+                </div>
+              </div>
+
+              {/* Feature 3 */}
+              <div className="bg-white p-6 rounded-sm shadow-sm border border-slate-200/80 flex items-start gap-4">
+                <div className="p-2 text-slate-800 shrink-0">
+                  <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5m0 0h4m-4 0v-4a1 1 0 011-1h2a1 1 0 011 1v4" />
+                  </svg>
+                </div>
+                <div>
+                  <p className="text-xs md:text-sm text-slate-700 font-light leading-relaxed">
+                    <strong className="font-bold text-[#0F1E2E]">Dedicated Asset Management</strong><span className="font-bold"> Hassle-free landlord representation, maintenance oversight, and tenant management.</span>
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+     {/* OUR COMMITMENT TO YOU SECTION */}
+      <section className="bg-[#FAF8F2] text-slate-800 py-16 px-6 md:px-12 border-t border-[#C8AD62]/30 relative">
+        {/* Top Gold Corner Accents */}
+        <div className="w-5 h-5 border-t-2 border-l-2 border-[#C8AD62] absolute top-6 left-6" />
+        <div className="w-5 h-5 border-t-2 border-r-2 border-[#C8AD62] absolute top-6 right-6" />
+
+        <div className="max-w-7xl mx-auto">
+          
+          {/* Section Header */}
+          <div className="mb-12">
+            <div className="flex items-center gap-4">
+              <h2 className="text-2xl md:text-3xl font-serif font-bold text-[#0F1E2E] tracking-wider uppercase">
+                OUR COMMITMENT TO YOU
+              </h2>
+              <div className="w-12 h-0.5 bg-slate-900" />
+            </div>
+            <div className="w-full h-px bg-[#C8AD62]/40 mt-3" />
+          </div>
+
+          {/* Quote Card */}
+          <div className="max-w-4xl mx-auto bg-white p-8 md:p-12 rounded-sm border border-[#C8AD62] shadow-sm text-center">
+            {/* Gold Quotation Marks */}
+            <div className="text-4xl text-[#C8AD62] font-serif leading-none mb-4">
+              ““
+            </div>
+
+            {/* Quote Text */}
+            <blockquote className="text-lg md:text-xl font-serif italic text-slate-800 leading-relaxed mb-6">
+              "Real estate is not just about properties; it is about building trust, protecting capital, and creating spaces where people thrive."
+            </blockquote>
+
+            {/* Attribution */}
+            <cite className="text-xs md:text-sm font-semibold text-[#C8AD62] tracking-widest uppercase not-italic">
+              — MISI DAVIS REALTY EXECUTIVE LEADERSHIP
+            </cite>
+          </div>
+
+        </div>
+      </section>
+      {/* CONNECT WITH US SECTION */}
+      <section className="bg-[#FAF8F2] text-slate-800 py-16 px-6 md:px-12 border-t border-[#C8AD62]/30 relative">
+        {/* Top Gold Corner Accents */}
+        <div className="w-5 h-5 border-t-2 border-l-2 border-[#C8AD62] absolute top-6 left-6" />
+        <div className="w-5 h-5 border-t-2 border-r-2 border-[#C8AD62] absolute top-6 right-6" />
+
+        <div className="max-w-7xl mx-auto">
+          
+          {/* Section Header */}
+          <div className="mb-10">
+            <div className="flex items-center gap-4">
+              <h2 className="text-2xl md:text-3xl font-serif font-bold text-[#0F1E2E] tracking-wider uppercase">
+                CONNECT WITH US
+              </h2>
+              <div className="w-12 h-0.5 bg-slate-900" />
+            </div>
+            <div className="w-full h-px bg-[#C8AD62]/40 mt-3" />
+          </div>
+
+          {/* Dark Green Contact Card Container */}
+          <div className="bg-[#1C2B22] p-8 md:p-12 rounded-sm border border-[#C8AD62]/40 shadow-xl">
+            <h3 className="text-xl md:text-2xl font-serif font-bold text-[#C8AD62] tracking-wider uppercase mb-3">
+              MISI DAVIS REALTY
+            </h3>
+            <p className="text-xs md:text-sm text-slate-300 font-light mb-8 max-w-xl leading-relaxed">
+              Visit our office or reach out directly to schedule a property consultation or manage your investments.
+            </p>
+
+            {/* Contact Details Stack */}
+            <div className="space-y-6">
+              
+              {/* Office Location */}
+              <div className="flex items-start gap-4">
+                <div className="w-10 h-10 rounded-full bg-[#C8AD62] flex items-center justify-center shrink-0 shadow-sm">
+                  <svg className="w-5 h-5 text-[#1C2B22]" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clipRule="evenodd" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="text-xs font-bold text-[#C8AD62] uppercase tracking-widest mb-0.5">
+                    OFFICE LOCATION
+                  </h4>
+                  <p className="text-xs md:text-sm text-slate-100 font-medium">
+                    Shop D1/11 Trans Amusement Shopping Complex
+                  </p>
+                </div>
+              </div>
+
+              {/* Phone / WhatsApp */}
+              <div className="flex items-start gap-4">
+                <div className="w-10 h-10 rounded-full bg-[#C8AD62] flex items-center justify-center shrink-0 shadow-sm">
+                  <svg className="w-5 h-5 text-[#1C2B22]" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="text-xs font-bold text-[#C8AD62] uppercase tracking-widest mb-0.5">
+                    PHONE / WHATSAPP
+                  </h4>
+                  <p className="text-xs md:text-sm text-slate-100 font-medium">
+                    +234 706 057 6115
+                  </p>
+                </div>
+              </div>
+
+              {/* Email Address */}
+              <div className="flex items-start gap-4">
+                <div className="w-10 h-10 rounded-full bg-[#C8AD62] flex items-center justify-center shrink-0 shadow-sm">
+                  <svg className="w-5 h-5 text-[#1C2B22]" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="text-xs font-bold text-[#C8AD62] uppercase tracking-widest mb-0.5">
+                    EMAIL ADDRESS
+                  </h4>
+                  <p className="text-xs md:text-sm text-slate-100 font-medium">
+                    misidavisrealty@gmail.com
+                  </p>
+                </div>
+              </div>
+
+              {/* Services Covered */}
+              <div className="flex items-start gap-4">
+                <div className="w-10 h-10 rounded-full bg-[#C8AD62] flex items-center justify-center shrink-0 shadow-sm">
+                  <svg className="w-5 h-5 text-[#1C2B22]" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M6 6V5a3 3 0 013-3h2a3 3 0 013 3v1h2a2 2 0 012 2v3.57A22.952 22.952 0 0110 13a22.95 22.95 0 01-8-1.43V8a2 2 0 012-2h2zm2-1a1 1 0 011-1h2a1 1 0 011 1v1H8V5zm1 5a1 1 0 011-1h.01a1 1 0 110 2H10a1 1 0 01-1-1z" clipRule="evenodd" />
+                    <path d="M2 13.692V16a2 2 0 002 2h12a2 2 0 002-2v-2.308A24.974 24.974 0 0110 15c-2.796 0-5.487-.46-8-1.308z" />
+                  </svg>
+                </div>
+                <div>
+                  <h4 className="text-xs font-bold text-[#C8AD62] uppercase tracking-widest mb-0.5">
+                    SERVICES COVERED
+                  </h4>
+                  <p className="text-xs md:text-sm text-slate-100 font-medium">
+                    Real Estate Sales • Lettings • Property Management
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
         </div>
       </section>
     </div>
